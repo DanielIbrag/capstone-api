@@ -1,0 +1,2 @@
+class CustomBuildsController < ApplicationController
+end
