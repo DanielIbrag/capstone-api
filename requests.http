@@ -1,0 +1,30 @@
+### Users Index
+GET http://localhost:3000/users.json
+
+
+### users create
+
+POST http://localhost:3000/users.json
+Content-Type: application/json
+
+{
+  "name": "john",
+  "email": "john@test.com",
+  "password": "password"
+}
+###users show
+GET http://localhost:3000/users/1.json
+
+
+###users Update
+PATCH http://localhost:3000/users/3.json
+Content-Type: application/json
+
+{
+  "name": "johnny",
+  "email": "john@test.com",
+  "password": "password"
+}
+
+###User Delete
+DELETE http://localhost:3000/users/3.json
