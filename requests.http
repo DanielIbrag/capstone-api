@@ -28,3 +28,14 @@ Content-Type: application/json
 
 ###User Delete
 DELETE http://localhost:3000/users/3.json
+
+
+### Player_info Index
+GET http://localhost:3000/favorites.json
+
+###player_info
+GET http://localhost:3000/favorites/player_info/puddn
+
+
+###items
+GET http://localhost:3000/favorites/items

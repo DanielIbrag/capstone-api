@@ -9,9 +9,9 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.3"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
+gem "http"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
-gem 'riot_api'
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"

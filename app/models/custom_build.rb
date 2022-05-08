@@ -1,2 +1,3 @@
 class CustomBuild < ApplicationRecord
+
 end
