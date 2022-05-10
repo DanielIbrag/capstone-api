@@ -1,0 +1,2 @@
+class Legendary < ApplicationRecord
+end

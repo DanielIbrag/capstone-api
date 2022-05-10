@@ -10,9 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_04_15_005515) do
+ActiveRecord::Schema[7.0].define(version: 2022_05_09_235127) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "champions", force: :cascade do |t|
+    t.string "Name"
+    t.string "Image"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "custom_builds", force: :cascade do |t|
     t.integer "user_id"
@@ -31,6 +38,27 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_15_005515) do
     t.integer "user_id"
     t.string "champion"
     t.string "status"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "items", force: :cascade do |t|
+    t.string "name"
+    t.string "image"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "legendaries", force: :cascade do |t|
+    t.string "Name"
+    t.string "Image"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "mythics", force: :cascade do |t|
+    t.string "Name"
+    t.string "Image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
