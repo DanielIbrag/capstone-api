@@ -1,6 +1,4 @@
 class FavoritesController < ApplicationController
-  require "http"
-
   def index
     favorites = Favorite.all
     render json: favorites.as_json
@@ -27,7 +25,7 @@ class FavoritesController < ApplicationController
     if favorite.save
       render json: favorite
     else
-      render json: {errors: favorite.errors.full_messages}, status: :bad_request
+      render json: { errors: favorite.errors.full_messages }, status: :bad_request
     end
   end
 
@@ -36,14 +34,30 @@ class FavoritesController < ApplicationController
     render json: favorite.as_json
   end
 
-  # def update
-
-  # end
+  def update
+    favorite = Favorite.find_by(id: params[:id])
+    favorite.champion_name = params[:champion_name] || favorite.champion_name
+    favorite.champion_image = params[:champion_image] || favorite.champion_image
+    favorite.mythic_name = params[:mythic_name] || favorite.mythic_name
+    favorite.mythic_image = params[:mythic_image] || favorite.mythic_image
+    favorite.legendary_name1 = params[:legendary_name1] || favorite.legendary_name1
+    favorite.legendary_image1 = params[:legendary_image1] || favorite.legendary_image1
+    favorite.legendary_name2 = params[:legendary_name2] || favorite.legendary_name2
+    favorite.legendary_image2 = params[:legendary_image2] || favorite.legendary_image2
+    favorite.legendary_name3 = params[:legendary_name3] || favorite.legendary_name3
+    favorite.legendary_image3 = params[:legendary_image3] || favorite.legendary_image3
+    favorite.legendary_name4 = params[:legendary_name4] || favorite.legendary_name4
+    favorite.legendary_image4 = params[:legendary_image4] || favorite.legendary_image4
+    favorite.legendary_name5 = params[:legendary_name5] || favorite.legendary_name5
+    favorite.legendary_image5 = params[:legendary_image5] || favorite.legendary_image5
+    favorite.save
+    render json: favorite.as_json
+  end
 
   def destroy
     favorite = Favorite.find_by(id: params[:id])
     favorite.destroy
-    render json: {message "Favorite has been destroyed"}
+    render json: { message: "Favorite has been destroyed" }
   end
 
   def player_info

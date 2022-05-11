@@ -8,8 +8,7 @@
 User.create(name: "Danny", email: "danny@test.com", password: "password")
 User.create(name: "Timmy", email: "timmy@test.com", password: "password")
 
-Favorite.create(user_id: 1, champion: "Riven", status: "Active")
-Favorite.create(user_id: 2, champion: "Aatrox", status: "Active")
+Favorite.create(user_id: 1, champion_name: "Riven", status: "Active", mythic_name: "Goredrinker", legendary_name1: "navori", legendary_name2: "emblem", legendary_name3: "boots", legendary_name4: "quick", legendary_name5: "ddcrow")
 
 CustomBuild.create(user_id: 1, champion: "riven", item1: "goredrinker", item2: "Mercury Treads", item3: "deaths dance", item4: "black cleaver", item5: "Steraks Gauge", item6: "Dead-mans Plate")
 

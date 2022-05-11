@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_05_10_211936) do
+ActiveRecord::Schema[7.0].define(version: 2022_05_10_224626) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -48,7 +48,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_05_10_211936) do
     t.string "legendary_name3"
     t.string "legendary_image3"
     t.string "legendary_name4"
-    t.string "lagendary_image4"
+    t.string "legendary_image4"
     t.string "legendary_name5"
     t.string "legendary_image5"
     t.datetime "created_at", null: false

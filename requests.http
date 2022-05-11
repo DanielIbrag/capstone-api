@@ -1,3 +1,5 @@
+@jwt = eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTIzMTI1OTJ9.GFZ2cmT4lVhd6lItv_HxmIpYB-huOISvLzByCOlCMmU
+
 ### Users Index
 GET http://localhost:3000/users.json
 
@@ -9,33 +11,53 @@ Content-Type: application/json
 
 {
   "name": "john",
-  "email": "john@test.com",
+  "email": "test@test.com",
   "password": "password"
 }
-###users show
-GET http://localhost:3000/users/1.json
-
-
-###users Update
-PATCH http://localhost:3000/users/3.json
+### Sessions create (login)
+POST http://localhost:3000/sessions
 Content-Type: application/json
 
 {
-  "name": "johnny",
-  "email": "john@test.com",
+  "email": "test@test.com",
   "password": "password"
 }
 
-###User Delete
-DELETE http://localhost:3000/users/3.json
-
-
-### Player_info Index
+### favorites Index
 GET http://localhost:3000/favorites.json
+
+###favorites create
+POST http://localhost:3000/favorites.json
+Authorization: Bearer {{jwt}}
+Content-Type: application/json
+
+{
+  "champion_name": "aatrox",
+  "mythic_name": "Goredrinker"
+
+
+}
+###favorites update
+PATCH http://localhost:3000/favorites/2.json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE2NTIzMDgyMjN9.pTEwxwYHTjtHbg7GFELFgGIm1uzGb_KVfwKstrG7XI4
+Content-Type: application/json
+
+{
+  "champion_name": "quinn"
+}
+
+###favorites delete
+DELETE http://localhost:3000/favorites/2.json
+
+###champions Index
+GET http://localhost:3000/champions
+
+###items Index
+GET http://localhost:3000/items
 
 ###player_info
 GET http://localhost:3000/favorites/player_info/puddn
 
 
 ###items
-GET http://localhost:3000/favorites/items
+GET http://localhost:3000/favorites/
