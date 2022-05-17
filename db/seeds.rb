@@ -8,219 +8,217 @@
 User.create(name: "Danny", email: "danny@test.com", password: "password")
 User.create(name: "Timmy", email: "timmy@test.com", password: "password")
 
-Favorite.create(user_id: 1, champion_name: "Riven", status: "Active", mythic_name: "Goredrinker", legendary_name1: "navori", legendary_name2: "emblem", legendary_name3: "boots", legendary_name4: "quick", legendary_name5: "ddcrow")
-
 CustomBuild.create(user_id: 1, champion: "riven", item1: "goredrinker", item2: "Mercury Treads", item3: "deaths dance", item4: "black cleaver", item5: "Steraks Gauge", item6: "Dead-mans Plate")
 
-Legendary.create(Name: "Abyssal Mask", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/8f/Abyssal_Mask_item.png/revision/latest/scale-to-width-down/40?cb=20201118202145")
+Legendary.create(Name: "Abyssal Mask", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/8f/Abyssal_Mask_item.png")
 
-Legendary.create(Name: "Anathema's Chains", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e0/Anathema%27s_Chains_item.png/revision/latest/scale-to-width-down/40?cb=20210619183041")
+Legendary.create(Name: "Anathema's Chains", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e0/Anathema%27s_Chains_item.png")
 
-Legendary.create(Name: "Archangel's Staff", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/47/Archangel%27s_Staff_item.png/revision/latest/scale-to-width-down/40?cb=20201027192425")
+Legendary.create(Name: "Archangel's Staff", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/47/Archangel%27s_Staff_item.png")
 
-Legendary.create(Name: "Ardent Censer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/47/Ardent_Censer_item.png/revision/latest/scale-to-width-down/40?cb=20201027192514")
+Legendary.create(Name: "Ardent Censer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/47/Ardent_Censer_item.png")
 
-Legendary.create(Name: "Axiom Arc", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/03/Axiom_Arc_item.png/revision/latest/scale-to-width-down/40?cb=20211020233329")
+Legendary.create(Name: "Axiom Arc", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/03/Axiom_Arc_item.png")
 
-Legendary.create(Name: "Banshee's Veil", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/03/Banshee%27s_Veil_item.png/revision/latest/scale-to-width-down/40?cb=20201104232026")
+Legendary.create(Name: "Banshee's Veil", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/03/Banshee%27s_Veil_item.png")
 
-Legendary.create(Name: "Black Cleaver", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/87/Black_Cleaver_item.png/revision/latest/scale-to-width-down/40?cb=20201027193134")
+Legendary.create(Name: "Black Cleaver", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/87/Black_Cleaver_item.png")
 
-Legendary.create(Name: "Black Mist Scythe", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d3/Black_Mist_Scythe_item.png/revision/latest/scale-to-width-down/40?cb=20201027193243")
+Legendary.create(Name: "Black Mist Scythe", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d3/Black_Mist_Scythe_item.png")
 
-Legendary.create(Name: "Blade of the ruined king", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2f/Blade_of_the_Ruined_King_item.png/revision/latest/scale-to-width-down/40?cb=20201118202648")
+Legendary.create(Name: "Blade of the ruined king", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2f/Blade_of_the_Ruined_King_item.png")
 
-Legendary.create(Name: "Bloodthirster", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/8b/Bloodthirster_item.png/revision/latest/scale-to-width-down/40?cb=20201118211239")
+Legendary.create(Name: "Bloodthirster", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/8b/Bloodthirster_item.png")
 
-Legendary.create(Name: "Bulwark of the Mountain", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1a/Bulwark_of_the_Mountain_item.png/revision/latest/scale-to-width-down/40?cb=20201118202755")
+Legendary.create(Name: "Bulwark of the Mountain", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1a/Bulwark_of_the_Mountain_item.png")
 
-Legendary.create(Name: "Chempunk Chainsword", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f8/Chempunk_Chainsword_item.png/revision/latest/scale-to-width-down/40?cb=20201029221632")
+Legendary.create(Name: "Chempunk Chainsword", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f8/Chempunk_Chainsword_item.png")
 
-Legendary.create(Name: "Chemtech Putrifier", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Chemtech_Putrifier_item.png/revision/latest/scale-to-width-down/40?cb=20201118202835")
+Legendary.create(Name: "Chemtech Putrifier", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Chemtech_Putrifier_item.png")
 
-Legendary.create(Name: "Cosmic Drive", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/7/73/Cosmic_Drive_item.png/revision/latest/scale-to-width-down/40?cb=20201118202910")
+Legendary.create(Name: "Cosmic Drive", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/7/73/Cosmic_Drive_item.png")
 
-Legendary.create(Name: "Dead Man's Plate", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/22/Dead_Man%27s_Plate_item.png/revision/latest/scale-to-width-down/40?cb=20201118202946")
+Legendary.create(Name: "Dead Man's Plate", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/22/Dead_Man%27s_Plate_item.png")
 
-Legendary.create(Name: "Death's Dance", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Death%27s_Dance_item.png/revision/latest/scale-to-width-down/40?cb=20201104212442")
+Legendary.create(Name: "Death's Dance", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1c/Death%27s_Dance_item.png")
 
-Legendary.create(Name: "Demonic Embrace", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Demonic_Embrace_item.png/revision/latest/scale-to-width-down/40?cb=20201118211318")
+Legendary.create(Name: "Demonic Embrace", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Demonic_Embrace_item.png")
 
-Legendary.create(Name: "Edge of Night", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/69/Edge_of_Night_item.png/revision/latest/scale-to-width-down/40?cb=20201027200343")
+Legendary.create(Name: "Edge of Night", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/69/Edge_of_Night_item.png")
 
-Legendary.create(Name: "Essence Reaver", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Essence_Reaver_item.png/revision/latest/scale-to-width-down/40?cb=20201104233328")
+Legendary.create(Name: "Essence Reaver", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/40/Essence_Reaver_item.png")
 
-Legendary.create(Name: "Fimbulwinter", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/69/Fimbulwinter_item.png/revision/latest/scale-to-width-down/40?cb=20211020233450")
+Legendary.create(Name: "Fimbulwinter", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/69/Fimbulwinter_item.png")
 
-Legendary.create(Name: "Force of Nature", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Force_of_Nature_item.png/revision/latest/scale-to-width-down/40?cb=20201118204335")
+Legendary.create(Name: "Force of Nature", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Force_of_Nature_item.png")
 
-Legendary.create(Name: "Frozen Heart", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/58/Frozen_Heart_item.png/revision/latest/scale-to-width-down/40?cb=20210904173935")
+Legendary.create(Name: "Frozen Heart", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/58/Frozen_Heart_item.png")
 
-Legendary.create(Name: "Gargoyle Stoneplate", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png/revision/latest/scale-to-width-down/40?cb=20201104234529")
+Legendary.create(Name: "Gargoyle Stoneplate", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bd/Gargoyle_Stoneplate_item.png")
 
-Legendary.create(Name: "Guardian Angel", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f4/Guardian_Angel_item.png/revision/latest/scale-to-width-down/40?cb=20210904172822")
+Legendary.create(Name: "Guardian Angel", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f4/Guardian_Angel_item.png")
 
-Legendary.create(Name: "Guinsoo's Rageblade", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/95/Guinsoo%27s_Rageblade_item.png/revision/latest/scale-to-width-down/40?cb=20201029192542")
+Legendary.create(Name: "Guinsoo's Rageblade", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/95/Guinsoo%27s_Rageblade_item.png")
 
-Legendary.create(Name: "Horizon Focus", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3b/Horizon_Focus_item.png/revision/latest/scale-to-width-down/40?cb=20201118204947")
+Legendary.create(Name: "Horizon Focus", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3b/Horizon_Focus_item.png")
 
-Legendary.create(Name: "Hullbreaker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b4/Hullbreaker_item.png/revision/latest/scale-to-width-down/40?cb=20210619183143")
+Legendary.create(Name: "Hullbreaker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b4/Hullbreaker_item.png")
 
-Legendary.create(Name: "Infinity Edge", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png/revision/latest/scale-to-width-down/40?cb=20201104234931")
+Legendary.create(Name: "Infinity Edge", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/15/Infinity_Edge_item.png")
 
-Legendary.create(Name: "Knight's Vow", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/fb/Knight%27s_Vow_item.png/revision/latest/scale-to-width-down/40?cb=20201118205132")
+Legendary.create(Name: "Knight's Vow", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/fb/Knight%27s_Vow_item.png")
 
-Legendary.create(Name: "Lich Bane", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Lich_Bane_item.png/revision/latest/scale-to-width-down/40?cb=20201118205241")
+Legendary.create(Name: "Lich Bane", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Lich_Bane_item.png")
 
-Legendary.create(Name: "Lord Dominik's Regards", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2d/Lord_Dominik%27s_Regards_item.png/revision/latest/scale-to-width-down/40?cb=20201027211114")
+Legendary.create(Name: "Lord Dominik's Regards", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2d/Lord_Dominik%27s_Regards_item.png")
 
-Legendary.create(Name: "Manamune", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Manamune_item.png/revision/latest/scale-to-width-down/40?cb=20201027211225")
+Legendary.create(Name: "Manamune", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Manamune_item.png")
 
-Legendary.create(Name: "Maw of Malmortius", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/14/Maw_of_Malmortius_item.png/revision/latest/scale-to-width-down/40?cb=20201104235705")
+Legendary.create(Name: "Maw of Malmortius", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/14/Maw_of_Malmortius_item.png")
 
-Legendary.create(Name: "Mejai's Soulstealer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2e/Mejai%27s_Soulstealer_item.png/revision/latest/scale-to-width-down/40?cb=20201104235737")
+Legendary.create(Name: "Mejai's Soulstealer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2e/Mejai%27s_Soulstealer_item.png")
 
-Legendary.create(Name: "Mercurial Scimitar", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/0a/Mercurial_Scimitar_item.png/revision/latest/scale-to-width-down/40?cb=20201029200446")
+Legendary.create(Name: "Mercurial Scimitar", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/0a/Mercurial_Scimitar_item.png")
 
-Legendary.create(Name: "Mikael's Blessing", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b9/Mikael%27s_Blessing_item.png/revision/latest/scale-to-width-down/40?cb=20201104235802")
+Legendary.create(Name: "Mikael's Blessing", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b9/Mikael%27s_Blessing_item.png")
 
-Legendary.create(Name: "Morellonomicon", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/7/7b/Morellonomicon_item.png/revision/latest/scale-to-width-down/40?cb=20201027211844")
+Legendary.create(Name: "Morellonomicon", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/7/7b/Morellonomicon_item.png")
 
-Legendary.create(Name: "Mortal Reminder", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/cf/Mortal_Reminder_item.png/revision/latest/scale-to-width-down/40?cb=20201029200540")
+Legendary.create(Name: "Mortal Reminder", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/cf/Mortal_Reminder_item.png")
 
-Legendary.create(Name: "Muramana", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/18/Muramana_item.png/revision/latest/scale-to-width-down/40?cb=20201028175238")
+Legendary.create(Name: "Muramana", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/18/Muramana_item.png")
 
-Legendary.create(Name: "Nashor's Tooth", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Nashor%27s_Tooth_item.png/revision/latest/scale-to-width-down/40?cb=20201029213416")
+Legendary.create(Name: "Nashor's Tooth", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Nashor%27s_Tooth_item.png")
 
-Legendary.create(Name: "Navori Quickblades", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e6/Navori_Quickblades_item.png/revision/latest/scale-to-width-down/40?cb=20201029200723")
+Legendary.create(Name: "Navori Quickblades", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e6/Navori_Quickblades_item.png")
 
-Legendary.create(Name: "Pauldrons of Whiterock", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/7/7c/Pauldrons_of_Whiterock_item.png/revision/latest/scale-to-width-down/40?cb=20201027213142")
+Legendary.create(Name: "Pauldrons of Whiterock", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/7/7c/Pauldrons_of_Whiterock_item.png")
 
-Legendary.create(Name: "Phantom Dancer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Phantom_Dancer_item.png/revision/latest/scale-to-width-down/40?cb=20201118205514")
+Legendary.create(Name: "Phantom Dancer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Phantom_Dancer_item.png")
 
-Legendary.create(Name: "Rabadon's Deathcap", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c5/Rabadon%27s_Deathcap_item.png/revision/latest/scale-to-width-down/40?cb=20201118205704")
+Legendary.create(Name: "Rabadon's Deathcap", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c5/Rabadon%27s_Deathcap_item.png")
 
-Legendary.create(Name: "Randuin's Omen", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png/revision/latest/scale-to-width-down/40?cb=20201027213705")
+Legendary.create(Name: "Randuin's Omen", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/08/Randuin%27s_Omen_item.png")
 
-Legendary.create(Name: "Rapid Firecannon", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Rapid_Firecannon_item.png/revision/latest/scale-to-width-down/40?cb=20211001052608")
+Legendary.create(Name: "Rapid Firecannon", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Rapid_Firecannon_item.png")
 
-Legendary.create(Name: "Ravenous Hydra", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e8/Ravenous_Hydra_item.png/revision/latest/scale-to-width-down/40?cb=20201118205837")
+Legendary.create(Name: "Ravenous Hydra", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e8/Ravenous_Hydra_item.png")
 
-Legendary.create(Name: "Redemption", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/94/Redemption_item.png/revision/latest/scale-to-width-down/40?cb=20210904174044")
+Legendary.create(Name: "Redemption", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/94/Redemption_item.png")
 
-Legendary.create(Name: "Runaan's Hurricane", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f5/Runaan%27s_Hurricane_item.png/revision/latest/scale-to-width-down/40?cb=20201027214148")
+Legendary.create(Name: "Runaan's Hurricane", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f5/Runaan%27s_Hurricane_item.png")
 
-Legendary.create(Name: "Rylai's Crystal Scepter", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f2/Rylai%27s_Crystal_Scepter_item.png/revision/latest/scale-to-width-down/40?cb=20201105000829")
+Legendary.create(Name: "Rylai's Crystal Scepter", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/f/f2/Rylai%27s_Crystal_Scepter_item.png")
 
-Legendary.create(Name: "Seraph's Embrace", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png/revision/latest/scale-to-width-down/40?cb=20201028175209")
+Legendary.create(Name: "Seraph's Embrace", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b9/Seraph%27s_Embrace_item.png")
 
-Legendary.create(Name: "Serpent's Fang", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/66/Serpent%27s_Fang_item.png/revision/latest/scale-to-width-down/40?cb=20201029210941")
+Legendary.create(Name: "Serpent's Fang", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/66/Serpent%27s_Fang_item.png")
 
-Legendary.create(Name: "Serylda's Grudge", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/cb/Serylda%27s_Grudge_item.png/revision/latest/scale-to-width-down/40?cb=20201118210008")
+Legendary.create(Name: "Serylda's Grudge", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/cb/Serylda%27s_Grudge_item.png")
 
-Legendary.create(Name: "Shadowflame", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bc/Shadowflame_item.png/revision/latest/scale-to-width-down/40?cb=20211020233741")
+Legendary.create(Name: "Shadowflame", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bc/Shadowflame_item.png")
 
-Legendary.create(Name: "Shard of True Ice", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/88/Shard_of_True_Ice_item.png/revision/latest/scale-to-width-down/40?cb=20201029202837")
+Legendary.create(Name: "Shard of True Ice", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/88/Shard_of_True_Ice_item.png")
 
-Legendary.create(Name: "Silvermere Dawn", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c9/Silvermere_Dawn_item.png/revision/latest/scale-to-width-down/40?cb=20201105001627")
+Legendary.create(Name: "Silvermere Dawn", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c9/Silvermere_Dawn_item.png")
 
-Legendary.create(Name: "Spirit Visage", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/6f/Spirit_Visage_item.png/revision/latest/scale-to-width-down/40?cb=20201118210426")
+Legendary.create(Name: "Spirit Visage", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/6f/Spirit_Visage_item.png")
 
-Legendary.create(Name: "Staff of Flowing Water", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Staff_of_Flowing_Water_item.png/revision/latest/scale-to-width-down/40?cb=20201118210501")
+Legendary.create(Name: "Staff of Flowing Water", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Staff_of_Flowing_Water_item.png")
 
-Legendary.create(Name: "Sterak's Gage", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/9b/Sterak%27s_Gage_item.png/revision/latest/scale-to-width-down/40?cb=20201027215554")
+Legendary.create(Name: "Sterak's Gage", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/9b/Sterak%27s_Gage_item.png")
 
-Legendary.create(Name: "Stormrazor", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Stormrazor_item.png/revision/latest/scale-to-width-down/40?cb=20211001052504")
+Legendary.create(Name: "Stormrazor", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/92/Stormrazor_item.png")
 
-Legendary.create(Name: "The Collector", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/91/The_Collector_item.png/revision/latest/scale-to-width-down/40?cb=20201029211120")
+Legendary.create(Name: "The Collector", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/91/The_Collector_item.png")
 
-Legendary.create(Name: "Thornmail", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/4f/Thornmail_item.png/revision/latest/scale-to-width-down/40?cb=20201029203655")
+Legendary.create(Name: "Thornmail", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/4f/Thornmail_item.png")
 
-Legendary.create(Name: "Titanic Hydra", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/22/Titanic_Hydra_item.png/revision/latest/scale-to-width-down/40?cb=20201118210703")
+Legendary.create(Name: "Titanic Hydra", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/22/Titanic_Hydra_item.png")
 
-Legendary.create(Name: "Umbral Glaive", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/5b/Umbral_Glaive_item.png/revision/latest/scale-to-width-down/40?cb=20201118210739")
+Legendary.create(Name: "Umbral Glaive", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/5b/Umbral_Glaive_item.png")
 
-Legendary.create(Name: "Vigilant Wardstone", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Vigilant_Wardstone_item.png/revision/latest/scale-to-width-down/40?cb=20201105001816")
+Legendary.create(Name: "Vigilant Wardstone", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Vigilant_Wardstone_item.png")
 
-Legendary.create(Name: "Void Staff", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Void_Staff_item.png/revision/latest/scale-to-width-down/40?cb=20201105001841")
+Legendary.create(Name: "Void Staff", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Void_Staff_item.png")
 
-Legendary.create(Name: "Warmog's Armor", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Warmog%27s_Armor_item.png/revision/latest/scale-to-width-down/40?cb=20210904172723")
+Legendary.create(Name: "Warmog's Armor", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Warmog%27s_Armor_item.png")
 
-Legendary.create(Name: "Winter's Approach", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Winter%27s_Approach_item.png/revision/latest/scale-to-width-down/40?cb=20211020233531")
+Legendary.create(Name: "Winter's Approach", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Winter%27s_Approach_item.png")
 
-Legendary.create(Name: "Wit's End", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Wit%27s_End_item.png/revision/latest/scale-to-width-down/40?cb=20201027220422")
+Legendary.create(Name: "Wit's End", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Wit%27s_End_item.png")
 
-Legendary.create(Name: "Youmuu's Ghostblade", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png/revision/latest/scale-to-width-down/40?cb=20201027220530")
+Legendary.create(Name: "Youmuu's Ghostblade", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/4/41/Youmuu%27s_Ghostblade_item.png")
 
-Legendary.create(Name: "Zeke's Convergence", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1a/Zeke%27s_Convergence_item.png/revision/latest/scale-to-width-down/40?cb=20201105002016")
+Legendary.create(Name: "Zeke's Convergence", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1a/Zeke%27s_Convergence_item.png")
 
-Legendary.create(Name: "Zhonias Hourglass", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b5/Zhonya%27s_Hourglass_item.png/revision/latest/scale-to-width-down/40?cb=20201029203022")
+Legendary.create(Name: "Zhonias Hourglass", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b5/Zhonya%27s_Hourglass_item.png")
 
-Legendary.create(Name: "Berzerkers Greeves", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bd/Berserker%27s_Greaves_item.png/revision/latest/scale-to-width-down/40?cb=20201118202614")
+Legendary.create(Name: "Berzerkers Greeves", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bd/Berserker%27s_Greaves_item.png")
 
-Legendary.create(Name: "Boots Of Speed", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Boots_item.png/revision/latest/scale-to-width-down/40?cb=20201029201411")
+Legendary.create(Name: "Boots Of Speed", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/37/Boots_item.png")
 
-Legendary.create(Name: "Boots Of Swiftness", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/69/Boots_of_Swiftness_item.png/revision/latest/scale-to-width-down/40?cb=20201027193506")
+Legendary.create(Name: "Boots Of Swiftness", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/69/Boots_of_Swiftness_item.png")
 
-Legendary.create(Name: "Ionian Boots Of Lucidity", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/14/Ionian_Boots_of_Lucidity_item.png/revision/latest/scale-to-width-down/40?cb=20201029200352")
+Legendary.create(Name: "Ionian Boots Of Lucidity", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/14/Ionian_Boots_of_Lucidity_item.png")
 
-Legendary.create(Name: "Mercury Treads", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/96/Mercury%27s_Treads_item.png/revision/latest/scale-to-width-down/40?cb=20201027211544")
+Legendary.create(Name: "Mercury Treads", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/96/Mercury%27s_Treads_item.png")
 
-Legendary.create(Name: "Mobility Boots", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b6/Mobility_Boots_item.png/revision/latest/scale-to-width-down/40?cb=20201029204734")
+Legendary.create(Name: "Mobility Boots", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b6/Mobility_Boots_item.png")
 
-Legendary.create(Name: "Plated Steelcaps", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/be/Plated_Steelcaps_item.png/revision/latest/scale-to-width-down/40?cb=20201029223540")
+Legendary.create(Name: "Plated Steelcaps", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/be/Plated_Steelcaps_item.png")
 
-Legendary.create(Name: "Sorcerer's Shoes", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Sorcerer%27s_Shoes_item.png/revision/latest/scale-to-width-down/40?cb=20201118210136")
+Legendary.create(Name: "Sorcerer's Shoes", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Sorcerer%27s_Shoes_item.png")
 
-Mythic.create(Name: "Crown of the Shattered Queen", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b6/Crown_of_the_Shattered_Queen_item.png/revision/latest/scale-to-width-down/40?cb=20211020233937")
+Mythic.create(Name: "Crown of the Shattered Queen", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/b6/Crown_of_the_Shattered_Queen_item.png")
 
-Mythic.create(Name: "Divine Sunderer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/35/Divine_Sunderer_item.png/revision/latest/scale-to-width-down/40?cb=20201028165700")
+Mythic.create(Name: "Divine Sunderer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/35/Divine_Sunderer_item.png")
 
-Mythic.create(Name: "Duskblade of Draktharr", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Duskblade_of_Draktharr_item.png/revision/latest/scale-to-width-down/40?cb=20201029192336")
+Mythic.create(Name: "Duskblade of Draktharr", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Duskblade_of_Draktharr_item.png")
 
-Mythic.create(Name: "Eclipse", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c2/Eclipse_item.png/revision/latest/scale-to-width-down/40?cb=20201118204016")
+Mythic.create(Name: "Eclipse", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c2/Eclipse_item.png")
 
-Mythic.create(Name: "Evenshroud", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Evenshroud_item.png/revision/latest/scale-to-width-down/40?cb=20211020233829")
+Mythic.create(Name: "Evenshroud", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bb/Evenshroud_item.png")
 
-Mythic.create(Name: "Everfrost", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Everfrost_item.png/revision/latest/scale-to-width-down/40?cb=20201118204140")
+Mythic.create(Name: "Everfrost", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/16/Everfrost_item.png")
 
-Mythic.create(Name: "Frostfire Gauntlet", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/cf/Frostfire_Gauntlet_item.png/revision/latest/scale-to-width-down/40?cb=20201118204437")
+Mythic.create(Name: "Frostfire Gauntlet", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/cf/Frostfire_Gauntlet_item.png")
 
-Mythic.create(Name: "Galeforce", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/6d/Galeforce_item.png/revision/latest/scale-to-width-down/40?cb=20201014183653")
+Mythic.create(Name: "Galeforce", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/6d/Galeforce_item.png")
 
-Mythic.create(Name: "Goredrinker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/30/Goredrinker_item.png/revision/latest/scale-to-width-down/40?cb=20201102201010")
+Mythic.create(Name: "Goredrinker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/30/Goredrinker_item.png")
 
-Mythic.create(Name: "Hextech Rocketbelt", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/8c/Hextech_Rocketbelt_item.png/revision/latest/scale-to-width-down/40?cb=20201118204847")
+Mythic.create(Name: "Hextech Rocketbelt", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/8/8c/Hextech_Rocketbelt_item.png")
 
-Mythic.create(Name: "Immortal Shieldbow", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2b/Immortal_Shieldbow_item.png/revision/latest/scale-to-width-down/40?cb=20201118205028")
+Mythic.create(Name: "Immortal Shieldbow", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/2/2b/Immortal_Shieldbow_item.png")
 
-Mythic.create(Name: "Imperial Mandate", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bc/Imperial_Mandate_item.png/revision/latest/scale-to-width-down/40?cb=20201104212814")
+Mythic.create(Name: "Imperial Mandate", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/b/bc/Imperial_Mandate_item.png")
 
-Mythic.create(Name: "Kraken Slayer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3d/Kraken_Slayer_item.png/revision/latest/scale-to-width-down/40?cb=20201015163506")
+Mythic.create(Name: "Kraken Slayer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3d/Kraken_Slayer_item.png")
 
-Mythic.create(Name: "Liandry's Anguish", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/30/Liandry%27s_Anguish_item.png/revision/latest/scale-to-width-down/40?cb=20201118211533")
+Mythic.create(Name: "Liandry's Anguish", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/30/Liandry%27s_Anguish_item.png")
 
-Mythic.create(Name: "Locket of the Iron Solari", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/56/Locket_of_the_Iron_Solari_item.png/revision/latest/scale-to-width-down/40?cb=20201104203301")
+Mythic.create(Name: "Locket of the Iron Solari", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/56/Locket_of_the_Iron_Solari_item.png")
 
-Mythic.create(Name: "Luden's Tempest", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1e/Luden%27s_Tempest_item.png/revision/latest/scale-to-width-down/40?cb=20201118205311")
+Mythic.create(Name: "Luden's Tempest", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/1/1e/Luden%27s_Tempest_item.png")
 
-Mythic.create(Name: "Moonstone Renewer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/5e/Moonstone_Renewer_item.png/revision/latest/scale-to-width-down/40?cb=20201028171852")
+Mythic.create(Name: "Moonstone Renewer", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/5/5e/Moonstone_Renewer_item.png")
 
-Mythic.create(Name: "Night Harvester", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/6d/Night_Harvester_item.png/revision/latest/scale-to-width-down/40?cb=20201118205420")
+Mythic.create(Name: "Night Harvester", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/6/6d/Night_Harvester_item.png")
 
-Mythic.create(Name: "Prowler's Claw", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/a/a4/Prowler%27s_Claw_item.png/revision/latest/scale-to-width-down/40?cb=20201118205641")
+Mythic.create(Name: "Prowler's Claw", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/a/a4/Prowler%27s_Claw_item.png")
 
-Mythic.create(Name: "Riftmaker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Riftmaker_item.png/revision/latest/scale-to-width-down/40?cb=20201029193724")
+Mythic.create(Name: "Riftmaker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Riftmaker_item.png")
 
-Mythic.create(Name: "Shurelya's Battlesong", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d4/Shurelya%27s_Battlesong_item.png/revision/latest/scale-to-width-down/40?cb=20201110202228")
+Mythic.create(Name: "Shurelya's Battlesong", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/d/d4/Shurelya%27s_Battlesong_item.png")
 
-Mythic.create(Name: "Stridebreaker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Stridebreaker_item.png/revision/latest/scale-to-width-down/40?cb=20201102200424")
+Mythic.create(Name: "Stridebreaker", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Stridebreaker_item.png")
 
-Mythic.create(Name: "Sunfire Aegis", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/0f/Sunfire_Aegis_item.png/revision/latest/scale-to-width-down/40?cb=20201028172304")
+Mythic.create(Name: "Sunfire Aegis", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/0/0f/Sunfire_Aegis_item.png")
 
-Mythic.create(Name: "Trinity Force", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3d/Trinity_Force_item.png/revision/latest/scale-to-width-down/40?cb=20201102200650")
+Mythic.create(Name: "Trinity Force", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/3/3d/Trinity_Force_item.png")
 
-Mythic.create(Name: "Turbo Chemtank", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c2/Turbo_Chemtank_item.png/revision/latest/scale-to-width-down/40?cb=20201029212101")
+Mythic.create(Name: "Turbo Chemtank", Image: "https://static.wikia.nocookie.net/leagueoflegends/images/c/c2/Turbo_Chemtank_item.png")
 
 Champion.create(Name: "Aatrox", Image: "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt570145160dd39dca/5db05fa8347d1c6baa57be25/RiotX_ChampionList_aatrox.jpg?quality=90&width=250")
 
