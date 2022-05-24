@@ -56,8 +56,8 @@ GET http://localhost:3000/champions
 GET http://localhost:3000/items
 
 ###player_info
-GET http://localhost:3000/favorites/player_info/puddn
+GET http://localhost:3000/favorites/player_info/dandiman
 
 
 ###items
-GET http://localhost:3000/favorites/
+GET http://localhost:3000/items/
